@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "arc_memory"
-path = "src/arc_memory.rs"
-
-[[bin]]
 name = "error_example"
 path = "src/error_example.rs"
+
+[dependencies]
+log = "0.4"
+env_logger = "0.10"
