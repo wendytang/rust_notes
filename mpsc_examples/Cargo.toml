@@ -1,0 +1,11 @@
+[package]
+name = "mpsc_examples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+
+[[example]]
+name = "7_oneshot_vs_mpsc"
+path = "examples/7_oneshot_vs_mpsc.rs"
